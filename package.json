@@ -1,0 +1,18 @@
+{
+  "name": "kj_token",
+  "version": "1.0.0",
+  "description": "ERC20 Token, minted by strava kj",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Collin Schaafsma",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-zos": "^1.9.0-beta",
+    "zos-lib": "^0.1.24"
+  }
+}

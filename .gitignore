@@ -1,0 +1,12 @@
+# NPM modules
+node_modules
+
+# Truffle artifacts
+build
+
+# Built contracts
+app/contracts/*
+!app/contracts/.gitkeep
+
+# Deployment configuration
+.env
