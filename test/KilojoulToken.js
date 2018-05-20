@@ -28,14 +28,7 @@ contract('KilojoulToken', function ([owner, ...accounts]) {
 
   it('should mint a token', async function () {
     const result = await this.token.mint(owner, 2);
-    console.log(result);
-    //result.should.eq(true);
+    //console.log(result);
 
-
-    //const proxy = await this.app.createProxy(KilojoulToken);
-    // let owner = await this.token.owner();
-    // console.log(owner);
-    //
-    // assert.equal(owner, accounts[0]);
   })
 });
