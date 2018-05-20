@@ -11,6 +11,7 @@ const KilojoulToken = artifacts.require('KilojoulToken')
 
 contract('KilojoulToken', function ([owner, ...accounts]) {
 
+  const minter = owner;
 
 
   beforeEach(async function () {
@@ -24,11 +25,19 @@ contract('KilojoulToken', function ([owner, ...accounts]) {
     const proxy = await this.app.createProxy(KilojoulToken);
     const result = await proxy.totalSupply();
     result.toNumber().should.eq(0);
-  })
+  });
 
-  it('should mint a token', async function () {
-    const result = await this.token.mint(owner, 2);
-    //console.log(result);
+  it('sets the correct owner', async function () {
+    const tokenOwner = await this.token.owner({ from: owner });
+    tokenOwner.should.equal(owner);
+  });
 
+  it('should mint a token from the sender', async function () {
+    const amount = 100;
+    const from = minter;
+
+    await this.token.mint(owner, amount, { from });
+    const balance = await this.token.balanceOf(owner);
+    assert.equal(balance, amount);
   })
 });
