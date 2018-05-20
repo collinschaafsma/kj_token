@@ -1,0 +1,23 @@
+{
+  "contracts": {
+    "Kilojoul": {
+      "address": "0x99b742949bdeb42f48b7ec76c4ffb0295b6f508b",
+      "bytecodeHash": "c76096120a0ce5764bfe1040c183fe97e709db583c6d778ef6543aa40b72a6e9"
+    },
+    "KilojoulToken": {
+      "address": "0xd1fbbf220640c56bbd79371bb4fd1e4629193751",
+      "bytecodeHash": "1d356d0e8c8f39ad919a45d5f7cfc1b1f3ab9df19342782140a5c80bdc946d11"
+    }
+  },
+  "proxies": {},
+  "app": {
+    "address": "0x851f4ccfa6e19e659c713cd1c27ab4c7af81f358"
+  },
+  "version": "0.0.1",
+  "package": {
+    "address": "0x305be8769ee49ca59ff55272693ea28e1090d524"
+  },
+  "provider": {
+    "address": "0xc1461e0670e704e479004ee6d6a154a3c5bef336"
+  }
+}
