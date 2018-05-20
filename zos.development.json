@@ -1,23 +1,19 @@
 {
   "contracts": {
-    "Kilojoul": {
-      "address": "0x99b742949bdeb42f48b7ec76c4ffb0295b6f508b",
-      "bytecodeHash": "c76096120a0ce5764bfe1040c183fe97e709db583c6d778ef6543aa40b72a6e9"
-    },
     "KilojoulToken": {
-      "address": "0xd1fbbf220640c56bbd79371bb4fd1e4629193751",
+      "address": "0x15b64c7b7925d1310c5131d7fdbc391c5a89cef0",
       "bytecodeHash": "1d356d0e8c8f39ad919a45d5f7cfc1b1f3ab9df19342782140a5c80bdc946d11"
     }
   },
   "proxies": {},
   "app": {
-    "address": "0x851f4ccfa6e19e659c713cd1c27ab4c7af81f358"
+    "address": "0xb9cd62d8859870a6fe6d4303c6d4ac79865ff897"
   },
   "version": "0.0.1",
   "package": {
-    "address": "0x305be8769ee49ca59ff55272693ea28e1090d524"
+    "address": "0x971f1af8c9ff774f4fbb92934eae488c137f729a"
   },
   "provider": {
-    "address": "0xc1461e0670e704e479004ee6d6a154a3c5bef336"
+    "address": "0x79e44533c6ebd5298bbea120de0e23eed8ea3f70"
   }
 }
