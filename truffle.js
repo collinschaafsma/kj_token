@@ -8,8 +8,8 @@ module.exports = {
       port: 7545,
       network_id: "*"
     },
-    ropsten_infura: {
-      provider: new HDWalletProvider(process.env.MNENOMIC, "https://ropsten.infura.io/" + process.env.INFURA_API_KEY),
+    rinkeby_infura: {
+      provider: new HDWalletProvider(process.env.MNENOMIC, "https://rinkeby.infura.io/" + process.env.INFURA_API_KEY),
       network_id: 3,
       gas: 4500000
     }
