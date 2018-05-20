@@ -12,6 +12,7 @@
   "author": "Collin Schaafsma",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "openzeppelin-zos": "^1.9.0-beta",
     "zos-lib": "^0.1.24"
   }
