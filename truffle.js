@@ -9,8 +9,10 @@ module.exports = {
       network_id: "*"
     },
     rinkeby_infura: {
-      provider: new HDWalletProvider(process.env.MNENOMIC, "https://rinkeby.infura.io/" + process.env.INFURA_API_KEY),
-      network_id: 3,
+      provider: function() {
+        return new HDWalletProvider(process.env.MNENOMIC, "https://rinkeby.infura.io/" + process.env.INFURA_API_KEY)
+      },
+      network_id: 4,
       gas: 4500000
     }
   }
