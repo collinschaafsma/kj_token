@@ -1,7 +1,6 @@
 pragma solidity ^0.4.23;
 
 import "./KilojoulToken.sol";
-import "openzeppelin-zos/contracts/token/ERC20/MintableToken.sol";
 import "openzeppelin-zos/contracts/math/SafeMath.sol";
 
 contract Kilojoul {
