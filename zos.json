@@ -1,5 +1,8 @@
 {
   "name": "kj_token",
   "version": "0.0.1",
-  "contracts": {}
+  "contracts": {
+    "Kilojoul": "Kilojoul",
+    "KilojoulToken": "KilojoulToken"
+  }
 }
